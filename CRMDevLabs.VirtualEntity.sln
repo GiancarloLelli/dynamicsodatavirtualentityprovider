@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRMDevLabs.VirtualEntity.Data", "src\CRMDevLabs.VirtualEntity.Data\CRMDevLabs.VirtualEntity.Data.csproj", "{0592C592-69C5-4DF0-B60C-20FE23DAA01F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRMDevLabs.VirtualEntity.Extensibility", "src\CRMDevLabs.VirtualEntity.Extensibility\CRMDevLabs.VirtualEntity.Extensibility.csproj", "{A17B50F6-E954-4423-BC1B-C8B62E3CFF49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMDevLabs.VirtualEntity.Plugins", "src\CRMDevLabs.VirtualEntity.Plugins\CRMDevLabs.VirtualEntity.Plugins.csproj", "{C8EDCE27-5909-4395-BD59-69A59DF75AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMDevLabs.VirtualEntity.Web.Full", "src\CRMDevLabs.VirtualEntity.Web.Full\CRMDevLabs.VirtualEntity.Web.Full.csproj", "{90CF35F8-C436-4FA9-A1D9-CB3EA535B39C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CRM", "CRM", "{9908671D-21E5-4DEA-9077-B64BA64E46C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Middlewares", "Middlewares", "{35196652-4E71-47C1-BC02-CA639FEEC589}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D894AF79-D8C4-4A52-B45A-2BB1BB55F9A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0592C592-69C5-4DF0-B60C-20FE23DAA01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0592C592-69C5-4DF0-B60C-20FE23DAA01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0592C592-69C5-4DF0-B60C-20FE23DAA01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0592C592-69C5-4DF0-B60C-20FE23DAA01F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17B50F6-E954-4423-BC1B-C8B62E3CFF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17B50F6-E954-4423-BC1B-C8B62E3CFF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17B50F6-E954-4423-BC1B-C8B62E3CFF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17B50F6-E954-4423-BC1B-C8B62E3CFF49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8EDCE27-5909-4395-BD59-69A59DF75AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8EDCE27-5909-4395-BD59-69A59DF75AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8EDCE27-5909-4395-BD59-69A59DF75AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8EDCE27-5909-4395-BD59-69A59DF75AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CF35F8-C436-4FA9-A1D9-CB3EA535B39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CF35F8-C436-4FA9-A1D9-CB3EA535B39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CF35F8-C436-4FA9-A1D9-CB3EA535B39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CF35F8-C436-4FA9-A1D9-CB3EA535B39C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0592C592-69C5-4DF0-B60C-20FE23DAA01F} = {D894AF79-D8C4-4A52-B45A-2BB1BB55F9A3}
+		{A17B50F6-E954-4423-BC1B-C8B62E3CFF49} = {D894AF79-D8C4-4A52-B45A-2BB1BB55F9A3}
+		{C8EDCE27-5909-4395-BD59-69A59DF75AFE} = {9908671D-21E5-4DEA-9077-B64BA64E46C8}
+		{90CF35F8-C436-4FA9-A1D9-CB3EA535B39C} = {35196652-4E71-47C1-BC02-CA639FEEC589}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26A18BB9-98FA-4236-B6BA-29F1465CD5E7}
+	EndGlobalSection
+EndGlobal
